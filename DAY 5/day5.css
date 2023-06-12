@@ -1,0 +1,47 @@
+/* universal selector */
+
+*{
+    margin: 5px;
+}
+
+/* type selector */
+
+body {
+    color: rgb(31, 82, 250);
+    background-color: rgb(0, 8, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* class selector */
+
+.first{
+    color: pink;
+}
+
+.large{
+    font-size: 30px;
+}
+
+/* id seletor */
+
+#list{
+    color: red;
+}
+
+input[type="text"]{
+    color: blue; 
+}
+
+a[href="https://www.google.com"]{
+    color: red;
+}
+
+/* pseudo selector */
+
+.first:hover{
+    color: brown;
+}
+
+a[href="https://www.google.com"]:hover{
+    color: white;
+}
