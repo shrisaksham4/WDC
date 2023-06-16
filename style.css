@@ -1,6 +1,6 @@
 :root{
     --primaryColor: #11009E;
-    --backgroundColor: #C4B0FF;
+    --backgroundColor: #B1F1B2;
     --primaryAccentColor: #4942E4
     --secondaryColor: #8696FE; 
     --whiteColor: white;
@@ -11,16 +11,29 @@
 
 body{
     background-color: var(--backgroundColor);
-    margin: 0;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
 }
 
 .navbar{
-    height: 4rem;
-    background-color: #4942e4;
-    margin-top: 3rem;
-    margin-left: 20%;
-    margin-right: 20%;
+    height: 3.2rem;
+    background: linear-gradient(90deg, #155674, #60BEB3, #1E757B);
     border-radius: 30px;
-    width: 60%;
-    
+    filter: drop-shadow(-4px 4px 10px rgb(55, 55, 55));
+    color: var(--backgroundColor);
+}
+
+.menuitem{
+    margin-left: 30px;
+    font-size: 20px;
+    height: 3.2rem;
+    padding: 14.8px;
+}
+
+.menuitemtext{
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
 }
